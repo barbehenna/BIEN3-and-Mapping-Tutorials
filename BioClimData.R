@@ -88,7 +88,7 @@ BIEN.BioClim.Species <- function(species_vector, zone_number, filename = NULL, d
   #restore working directory to original directory regardless of save preference and return data
   setwd(old_directory)
   return(bio9dat)
-  }
+}
 
 
 
@@ -182,7 +182,7 @@ BIEN.BioClim.Genus <- function(genus_vector, zone_number, filename = NULL, direc
   #restore working directory to original directory regardless of save preference and return data
   setwd(old_directory)
   return(bio9dat)
-  }
+}
 
 
 
@@ -278,7 +278,7 @@ BIEN.BioClim.Family <- function(family_vector, zone_number, filename = NULL, dir
   #restore working directory to original directory regardless of save preference and return data
   setwd(old_directory)
   return(bio9dat)
-  }
+}
 
 
 
