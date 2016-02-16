@@ -1,4 +1,4 @@
-#This function is utilizes functions from the BIEN3 Project Written by Brian Maitner 2015.
+#This function is utilizes functions from the BIEN3 Project Written by Brian Maitner in 2015.
 #It takes as input a vector containing a set of species and a zone number. This function 
 #then queries the BIEN3 database for all reported locations of a memeber of the species.
 #Then it creates a csv file containing the bioclim values of all these locations. 
@@ -92,7 +92,7 @@ BIEN.BioClim.Species <- function(species_vector, zone_number, filename = NULL, d
 
 
 
-#This function is utilizes functions from the BIEN3 Project Written by Brian Maitner 2015.
+#This function is utilizes functions from the BIEN3 Project Written by Brian Maitner in 2015.
 #It takes as input a vector containing a set of genuses and a zone number. This function 
 #then queries the BIEN3 database for all reported locations of a memeber of the genus.
 #Then it creates a csv file containing the bioclim values of all these locations. 
@@ -188,7 +188,7 @@ BIEN.BioClim.Genus <- function(genus_vector, zone_number, filename = NULL, direc
 
 
 
-#This function is utilizes functions from the BIEN3 Project Written by Brian Maitner 2015.
+#This function is utilizes functions from the BIEN3 Project Written by Brian Maitner in 2015.
 #It takes as input a vector containing a set of families and a zone number. This function 
 #then queries the BIEN3 database for all reported locations of a memeber of the family.
 #Then it creates a csv file containing the bioclim values of all these locations. 
